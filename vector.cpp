@@ -28,6 +28,9 @@ int main() {
 	for (vector<int>::iterator elem = numeri.begin(); elem != numeri.end(); elem++)
 		cout << *elem << endl;
 
+	for(int i = 0 ; i < numeri.size() ; i++ )
+	  cout << numeri[i] << endl;
+
 	cout << "Faccio piazza pulita" << endl;
 	numeri.clear();
 	cout << "N elem: " << numeri.size();
